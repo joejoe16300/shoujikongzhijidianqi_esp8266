@@ -20,8 +20,8 @@
 // The setup() function runs once each time the micro-controller starts
 /*这篇把8266作为TCPcleint，加入手机创建的tcpServer中来控制一个继电器*/
 
-#include <ESP8266WiFi.h>
-
+#include <ESP8266WiFi.h> 
+  
 #define relayPin 2               //继电器连接在8266的GPIO2上
 const char *ssid = "Xiaomi";//这里是我的wifi，你使用时修改为你要连接的wifi ssid
 const char *password = "12345687";//你要连接的wifi密码
